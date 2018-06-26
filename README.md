@@ -1,18 +1,20 @@
 # Python-Machine-Learning-Mini-Course-zh-TW
-Python Machine Learning Mini-Course 繁體中文版
 
-## From Developer to Machine Learning Practitioner in 14 Days
-Python is one of the fastest-growing platforms for applied machine learning.
+[Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/) 是 Jason Brownlee 在 Machine Learning Mastery 所發表的一篇教學文，內容淺顯易懂，對於想要透過 Python 來入手機器學習的新手來說，是很好的文章，在這裡分享給大家。
 
-In this mini-course, you will discover how you can get started, build accurate models and confidently complete predictive modeling machine learning projects using Python in 14 days.
+## 14 天從開發者到機器學習工作者
 
-This is a big and important post. You might want to bookmark it.
+Python 已經成為應用機器學習領域中發展最快速的平台語言之一。
 
-Let’s get started.
+在這門簡短的課程中，你會了解到如何在 14 天內，使用 Python 來建構機器學習模型，並且有自信地完成一個機器學習的專案。
 
-Update Oct/2016: Updated examples for sklearn v0.18.
-Update Feb/2018: Update Python and library versions.
-Update March/2018: Added alternate link to download some datasets as the originals appear to have been taken down.
+這是一篇很重要的文章，你可以把他加入書籤中。
+
+讓我們開始吧！
+
+[更新] Oct/2016: 更新範例至 sklearn v0.18
+[更新] Feb/2018: 更新 Python 和 library 版本
+[更新] March/2018: 更改某些資料集的下載連結，某些連結已經失效
 
 ## Who Is This Mini-Course For?
 Before we get started, let’s make sure you are in the right place.
