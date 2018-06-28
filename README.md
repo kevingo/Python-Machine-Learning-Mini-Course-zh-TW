@@ -98,5 +98,48 @@ The lessons expect you to go off and find out how to do things. I will give you 
 
 I do provide more help in the early lessons because I want you to build up some confidence and inertia.
 
+## 第一課：下載並安裝 Python 和 SciPy
+
+你必須要擁有 Python 相關開發環境後，才能夠開始學習機器學習。
+
+今天的課程很簡單，你必須要下載 Python 3.6 在自己的電腦上。
+
+訪問 Python 官方網站，並根據自己的作業系統下載對應的 Python 版本。你可能要根據自己的作業系統來使用對應的套件管理工具來進行安裝，像是 OSX 的 macports 或 RedHat 的 yum。
+
+你也需要安裝 SciPy 以及 scikit-learn，我建議使用和安裝 Python 相同的方式來進行安裝。
+
+你也可以使用 Anaconda，它幫你把所有需要的函式庫都打包在一起，對於初學者來說相當方便。
+
+開始學習 Python 了，你可以在 command line 輸入 `python` 指令來進入 python 的互動 shell。
+
+透過以下簡單的程式碼來確認你的函式庫的版本：
+
+```python
+# Python version
+import sys
+print('Python: {}'.format(sys.version))
+# scipy
+import scipy
+print('scipy: {}'.format(scipy.__version__))
+# numpy
+import numpy
+print('numpy: {}'.format(numpy.__version__))
+# matplotlib
+import matplotlib
+print('matplotlib: {}'.format(matplotlib.__version__))
+# pandas
+import pandas
+print('pandas: {}'.format(pandas.__version__))
+# scikit-learn
+import sklearn
+print('sklearn: {}'.format(sklearn.__version__))
+```
+
+如果出現任何錯誤，現在就花時間修正他們。
+
+需要幫助的時候，看看底下的這篇文章：
+
+[如何使用 Anaconda 來建立機器學習和深度學習的開發環境](https://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
+
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
