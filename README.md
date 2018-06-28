@@ -1,6 +1,6 @@
 # Python-Machine-Learning-Mini-Course-zh-TW
 
-[Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/) 是 Jason Brownlee 在 Machine Learning Mastery 所發表的一篇教學文，內容淺顯易懂，對於想要透過 Python 來入手機器學習的新手來說，是很好的文章，在這裡分享給大家。
+[Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/) 是 Jason Brownlee 在 Machine Learning Mastery 所發表的一篇教學文，內容淺顯易懂，對於想要透過 Python 來入手機器學習的新手來說，是很好的文章，在這裡分享給大家。
 
 ## 14 天從開發者到機器學習工作者
 
@@ -10,7 +10,7 @@ Python 已經成為應用機器學習領域中發展最快速的平台語言之�
 
 這是一篇很重要的文章，你可以把他加入書籤中。
 
-讓我們開始吧！
+讓我們開始吧！
 
 [更新] Oct/2016: 更新範例至 sklearn v0.18
 [更新] Feb/2018: 更新 Python 和 library 版本
