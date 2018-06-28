@@ -16,20 +16,22 @@ Python 已經成為應用機器學習領域中發展最快速的平台語言之�
 [更新] Feb/2018: 更新 Python 和 library 版本
 [更新] March/2018: 更改某些資料集的下載連結，某些連結已經失效
 
-## Who Is This Mini-Course For?
-Before we get started, let’s make sure you are in the right place.
+## 這門課程的對象是誰？
 
-The list below provides some general guidelines as to who this course was designed for.
+在我們開始學習之前，讓我們確保你站在正確的位置。
 
-Don’t panic if you don’t match these points exactly, you might just need to brush up in one area or another to keep up.
+底下我描述了一些通則，讓你知道這門課所設計的學習對象為何。
 
-- Developers that know how to write a little code. This means that it is not a big deal for you to pick up a new programming language like Python once you know the basic syntax. It does not mean you’re a wizard coder, just that you can follow a basic C-like language with little effort.
-- Developers that know a little machine learning. This means you know the basics of machine learning like cross-validation, some algorithms and the bias-variance trade-off. It does not mean that you are a machine learning Ph.D., just that you know the landmarks or know where to look them up.
-This mini-course is neither a textbook on Python or a textbook on machine learning.
+如果你不完全符合以下的條件，別緊張，你可能只要在某一個或幾個領域重新學習就可以跟上。
 
-It will take you from a developer that knows a little machine learning to a developer who can get results using the Python ecosystem, the rising platform for professional machine learning.
+- 知道如何撰寫一些程式碼的開發者。這代表說你在學習一門新的語言，像是 Python 時，一旦你知道了基本的語法，這不是太大的問題。這不代表你需要是一個開發狂熱份子，只要你可以輕鬆的了解基本的 C 或類似於 C 語言的語法即可。
+- 知道一點點機器學習相關知識的開發者。意味者你知道基本的 cross-validation、一些演算法和偏差和方差之間的取捨 (Bias–variance tradeoff) 等概念。
 
-## Mini-Course Overview
+這門基本的課程並不是 Python 或機器學習的教科書。
+
+這門課程會讓你從一個知道一點點機器學習的開發者，成長為一個能使用 Python 相關生態系來得到機器學習所訓練出來的模型結果。
+
+## 課程導覽
 
 Python Machine Learning Mini-Course
 by Jason Brownlee on September 26, 2016 in Python Machine Learning
