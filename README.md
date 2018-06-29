@@ -141,5 +141,30 @@ print('sklearn: {}'.format(sklearn.__version__))
 
 [如何使用 Anaconda 來建立機器學習和深度學習的開發環境](https://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
 
+## 第二課：開始練習 Python、NumPy、Matplotlib 和 Pandas
+
+你需要有能力可以撰寫基本的 Python 程式碼。
+
+身為開發者，你可以快速的學習新的程式語言。Python 區分大小寫，# 作為註解，並使用空白來表示程式碼區塊 (空白是重要的)。
+
+今天的任務是在 Python 的互動環境中練習 Python 的基本語法，並練習 SciPy 的資料結構。
+
+練習使用指派運算，使用 list 和流程控制。
+練習 NumPy 陣列。
+練習使用 Matplotlib 建立簡單的圖表。
+練習使用 Pandas 的 Series 和 DataFrames。
+舉例來說，底下是使用 Pandas 建立 DataFrame 的例子：
+
+```python
+# dataframe
+import numpy
+import pandas
+myarray = numpy.array([[1, 2, 3], [4, 5, 6]])
+rownames = ['a', 'b']
+colnames = ['one', 'two', 'three']
+mydataframe = pandas.DataFrame(myarray, index=rownames, columns=colnames)
+print(mydataframe)
+```
+
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
