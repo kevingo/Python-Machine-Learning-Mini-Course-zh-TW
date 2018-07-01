@@ -166,18 +166,21 @@ mydataframe = pandas.DataFrame(myarray, index=rownames, columns=colnames)
 print(mydataframe)
 ```
 
-## Lesson 3: Load Data From CSV
+## 第三課：從 CSV 中讀取資料
 
-Machine learning algorithms need data. You can load your own data from CSV files but when you are getting started with machine learning in Python you should practice on standard machine learning datasets.
+機器學習演算法需要資料。你的資料可以從自己的資料集來，可是當你一開始練習的時候，應該練習使用標準機器學習資料集。
 
-Your task for today’s lesson is to get comfortable loading data into Python and to find and load standard machine learning datasets.
+今天你的任務就是熟悉在 Python 中讀取滋藥，並且使用標準的機器學習資料集。
 
-There are many excellent standard machine learning datasets in CSV format that you can download and practice with on the [UCI machine learning repository](http://machinelearningmastery.com/practice-machine-learning-with-small-in-memory-datasets-from-the-uci-machine-learning-repository/).
+在網路你可以找到許多優秀的機器學習用的資料集。在這堂課中，你可以從[UCI 機器學習資料庫](http://machinelearningmastery.com/practice-machine-learning-with-small-in-memory-datasets-from-the-uci-machine-learning-repository/) 中下載相關的資料集。
 
-Practice loading CSV files into Python using the [CSV.reader()](https://docs.python.org/2/library/csv.html) in the standard library.
-Practice loading CSV files using NumPy and the [numpy.loadtxt()](http://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.loadtxt.html) function.
-Practice loading CSV files using Pandas and the [pandas.read_csv()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) function.
-To get you started, below is a snippet that will load the Pima Indians onset of diabetes dataset using Pandas directly from the UCI Machine Learning Repository.
+練習在 Python 中使用 [CSV.reader()](https://docs.python.org/2/library/csv.html) 來讀取 CSV 資料。
+
+練習使用 Numpy 的 [numpy.loadtxt()](http://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.loadtxt.html) 函示來讀取資料。
+
+練習使用 Pandas 的 [pandas.read_csv()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) 函示來讀取資料。
+
+為了讓你可以更快入門，下面的程式碼是一個簡單的範例，它直接從 UCI 機器學習資料庫中，透過 Pandas 來讀取 Pima 印地安人糖尿病資料集：
 
 ```python
     # Load CSV using Pandas from URL
