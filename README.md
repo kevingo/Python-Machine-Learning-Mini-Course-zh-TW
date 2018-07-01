@@ -166,5 +166,27 @@ mydataframe = pandas.DataFrame(myarray, index=rownames, columns=colnames)
 print(mydataframe)
 ```
 
+## Lesson 3: Load Data From CSV
+
+Machine learning algorithms need data. You can load your own data from CSV files but when you are getting started with machine learning in Python you should practice on standard machine learning datasets.
+
+Your task for today’s lesson is to get comfortable loading data into Python and to find and load standard machine learning datasets.
+
+There are many excellent standard machine learning datasets in CSV format that you can download and practice with on the [UCI machine learning repository](http://machinelearningmastery.com/practice-machine-learning-with-small-in-memory-datasets-from-the-uci-machine-learning-repository/).
+
+Practice loading CSV files into Python using the [CSV.reader()](https://docs.python.org/2/library/csv.html) in the standard library.
+Practice loading CSV files using NumPy and the [numpy.loadtxt()](http://docs.scipy.org/doc/numpy-1.10.0/reference/generated/numpy.loadtxt.html) function.
+Practice loading CSV files using Pandas and the [pandas.read_csv()](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html) function.
+To get you started, below is a snippet that will load the Pima Indians onset of diabetes dataset using Pandas directly from the UCI Machine Learning Repository.
+
+```python
+    # Load CSV using Pandas from URL
+    import pandas
+    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+    names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+    data = pandas.read_csv(url, names=names)
+    print(data.shape)
+```
+
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
