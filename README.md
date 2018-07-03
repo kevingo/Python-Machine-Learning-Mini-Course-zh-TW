@@ -191,20 +191,17 @@ print(mydataframe)
     print(data.shape)
 ```
 
-## Lesson 4: Understand Data with Descriptive Statistics
+## 第四課：透過敘述統計的方法來瞭解資料
 
-Once you have loaded your data into Python you need to be able to understand it.
+一旦你將資料讀取到 Python 後，你就能夠更好地瞭解你的資料。
 
-The better you can understand your data, the better and more accurate the models that you can build. The first step to understanding your data is to use descriptive statistics.
+當你更了解你的資料，你所建立的模型就會更好且更準確。了解資料的第一步就是使用敘述統計的方式來進行。
 
-Today your lesson is to learn how to use descriptive statistics to understand your data. I recommend using the helper functions provided on the Pandas DataFrame.
+今天的功課就是透過敘述統計的方法來了解資料。我建議你可以使用 Pandas DataFrame 提供的相關函式。
 
-Understand your data using the head() function to look at the first few rows.
-Review the dimensions of your data with the shape property.
-Look at the data types for each attribute with the dtypes property.
-Review the distribution of your data with the describe() function.
-Calculate pairwise correlation between your variables using the corr() function.
-The below example loads the Pima Indians onset of diabetes dataset and summarizes the distribution of each attribute.
+透過 head() 函式來看看數筆資料。透過 shape 屬性來觀看資料的維度。透過 dtypes 屬性來看看資料的型態。透過 describe() 函式來看看資料的分佈狀況。使用 corr() 函式來計算資料之間的相關係數。
+
+底下的範例是讀取 Pima 印地安人糖尿病資料集後，透過 describe() 函式來觀看資料的分佈。
 
 ```python
     import pandas
