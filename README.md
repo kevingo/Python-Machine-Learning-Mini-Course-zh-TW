@@ -212,5 +212,32 @@ print(mydataframe)
     print(description)
 ```
 
+## Lesson 5: Understand Data with Visualization
+
+Continuing on from yesterday’s lesson, you must spend time to better understand your data.
+
+A second way to improve your understanding of your data is by using data visualization techniques (e.g. plotting).
+
+Today, your lesson is to learn how to use plotting in Python to understand attributes alone and their interactions. Again, I recommend using the helper functions provided on the Pandas DataFrame.
+
+Use the hist() function to create a histogram of each attribute.
+Use the plot(kind=’box’) function to create box-and-whisker plots of each attribute.
+Use the pandas.scatter_matrix() function to create pairwise scatterplots of all attributes.
+For example, the snippet below will load the diabetes dataset and create a scatterplot matrix of the dataset.
+
+```python
+    # Scatter Plot Matrix
+    import matplotlib.pyplot as plt
+    import pandas
+    from pandas.plotting import scatter_matrix
+    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+    names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+    data = pandas.read_csv(url, names=names)
+    scatter_matrix(data)
+    plt.show()
+```
+
+![image](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Sample-Scatter-Plot-Matrix.png)
+
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
