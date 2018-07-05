@@ -212,18 +212,19 @@ print(mydataframe)
     print(description)
 ```
 
-## Lesson 5: Understand Data with Visualization
+## 第五課：透過視覺化來了解資料
 
-Continuing on from yesterday’s lesson, you must spend time to better understand your data.
+延續昨天的課程，你必須要花時間了解你的資料。
 
-A second way to improve your understanding of your data is by using data visualization techniques (e.g. plotting).
+第二種了解資料的方式就是透過視覺化的技巧(例如：繪圖)。
 
-Today, your lesson is to learn how to use plotting in Python to understand attributes alone and their interactions. Again, I recommend using the helper functions provided on the Pandas DataFrame.
+今天，你的功課就是去學習如何在 Python 中透過繪圖的方法來了解資料中個屬性的特性，以及彼此交互的關係。同樣，我也建立可以使用 Pandas 中相關輔助的函式來幫助你更了解資料。
 
-Use the hist() function to create a histogram of each attribute.
-Use the plot(kind=’box’) function to create box-and-whisker plots of each attribute.
-Use the pandas.scatter_matrix() function to create pairwise scatterplots of all attributes.
-For example, the snippet below will load the diabetes dataset and create a scatterplot matrix of the dataset.
+使用 hist() 函式來建立每個屬性的直方圖。
+使用 plot(kind='box') 函式來建立每個屬性的 box-and-whisker 圖。
+使用 pandas.scatter_matrix() 函式來建立所有屬性兩兩之間的散佈圖。
+
+舉例來說，底下的程式碼會讀取糖尿病資料集，並建立資料集之間的散佈圖矩陣。
 
 ```python
     # Scatter Plot Matrix
