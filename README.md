@@ -241,38 +241,39 @@ print(mydataframe)
 ![image](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Sample-Scatter-Plot-Matrix.png)
 
 
-## Lesson 6: Prepare For Modeling by Pre-Processing Data
+## 第六課：針對資料進行前處理，準備進入建模階段
 
-Your raw data may not be setup to be in the best shape for modeling.
+你的原始資料很有可能不是建立模型的最好狀態。
 
-Sometimes you need to preprocess your data in order to best present the inherent structure of the problem in your data to the modeling algorithms. In today’s lesson, you will use the pre-processing capabilities provided by the scikit-learn.
+很多時候，你需要針對資料進行前處理，讓你的資料可以很好的餵給模型演算法。今天的課程中，你將會使用 scikit-learn 的資料前處理功能來處理資料。
 
-The scikit-learn library provides two standard idioms for transforming data. Each transform is useful in different circumstances: Fit and Multiple Transform and Combined Fit-And-Transform.
+scikit-learn 的函式庫提供了兩種標準的資料轉換方式。這兩種都很有用，分別是：進行 fit() 和 多次的 transform()，或是 fit() 和 transform() 結合的轉換。
 
-There are many techniques that you can use to prepare your data for modeling. For example, try out some of the following
+有許多的方法可以在建模前來進資料準備，讓我們看看底下的例子：
 
-- Standardize numerical data (e.g. mean of 0 and standard deviation of 1) using the scale and center options.
-- Normalize numerical data (e.g. to a range of 0-1) using the range option.
-- Explore more advanced feature engineering such as Binarizing.
-For example, the snippet below loads the Pima Indians onset of diabetes dataset, calculates the parameters needed to standardize the data, then creates a standardized copy of the input data.
+- 對數值資料進行標準化 (例如：將資料轉換為平均數為 0，標準差為 1 的分配)
+- 利用 range 的參數讓數值資料標準化 (例如：將數值資料轉換為 0-1 的區間)
+- 探索更進階的資料工程技巧，例如：二值化 (Binarizing)
+
+來看個例子，底下的程式碼會讀取 Pima 印地安人糖尿病資料集，計算進行資料正規化所需要的參數，然後建立正規化後的資料：
 
 ```python
-    # Standardize data (0 mean, 1 stdev)
-    from sklearn.preprocessing import StandardScaler
-    import pandas
-    import numpy
-    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
-    names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
-    dataframe = pandas.read_csv(url, names=names)
-    array = dataframe.values
-    # separate array into input and output components
-    X = array[:,0:8]
-    Y = array[:,8]
-    scaler = StandardScaler().fit(X)
-    rescaledX = scaler.transform(X)
-    # summarize transformed data
-    numpy.set_printoptions(precision=3)
-    print(rescaledX[0:5,:])
+# Standardize data (0 mean, 1 stdev)
+from sklearn.preprocessing import StandardScaler
+import pandas
+import numpy
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+dataframe = pandas.read_csv(url, names=names)
+array = dataframe.values
+# separate array into input and output components
+X = array[:,0:8]
+Y = array[:,8]
+scaler = StandardScaler().fit(X)
+rescaledX = scaler.transform(X)
+# summarize transformed data
+numpy.set_printoptions(precision=3)
+print(rescaledX[0:5,:])
 ```
 
 
