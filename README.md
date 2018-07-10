@@ -276,19 +276,21 @@ numpy.set_printoptions(precision=3)
 print(rescaledX[0:5,:])
 ```
 
-## Lesson 7: Algorithm Evaluation With Resampling Methods
+## 第七課：透過重複抽樣(Resample method)的方法來進行演算法評估
 
-The dataset used to train a machine learning algorithm is called a training dataset. The dataset used to train an algorithm cannot be used to give you reliable estimates of the accuracy of the model on new data. This is a big problem because the whole idea of creating the model is to make predictions on new data.
+用來給機器學習演算法學習的資料集稱之為訓練資料集。然而，訓練資料集並不能保證機器學習演算法學習到的模型能夠完美的用來預測新的資料。這就是一個大的問題，因為我們之所以訓練模型，就是希望能夠準確的預測新的資料。
 
-You can use statistical methods called resampling methods to split your training dataset up into subsets, some are used to train the model and others are held back and used to estimate the accuracy of the model on unseen data.
+要解決這樣的問題，你可以透過一種統計的方法，叫做重複抽樣，將你的訓練資料集分成數個子集合，某些用來訓練模型，其他的則是用來評估模型的準確度，以便了解訓練出來的模型在面對沒有看過的資料時的效果如何。
 
-Your goal with today’s lesson is to practice using the different resampling methods available in scikit-learn, for example:
+而今天課程的目的就是要來練習這種重複抽樣的方法，在 scikit-learn 當中，你可以透過以下步驟來實現：
 
-- Split a dataset into training and test sets.
-- Estimate the accuracy of an algorithm using k-fold cross validation.
-- Estimate the accuracy of an algorithm using leave one out cross validation.
+- 將資料集分成訓練資料集和測試資料集
+- 透過 k-fold 交叉驗證的方法來預估某個模型的準確率
+- 透過 leave one out 交叉驗證的方式來預估某個演算法的準確率
 
 The snippet below uses scikit-learn to estimate the accuracy of the Logistic Regression algorithm on the Pima Indians onset of diabetes dataset using 10-fold cross validation.
+
+底下的程式碼使用 scikit-learn 的 10-fold 交叉驗證的方式來驗證使用 Logistic Regression 演算法在 Pima 印地安人糖尿病資料集上的準確率。
 
 ```python
 # Evaluate using Cross Validation
@@ -309,7 +311,9 @@ print("Accuracy: %.3f%% (%.3f%%)") % (results.mean()*100.0, results.std()*100.0)
 ```
 What accuracy did you get? Let me know in the comments.
 
-Did you realize that this is the halfway point? Well done!
+你得到多少的準確率？在底下留言讓我知道。
+
+你知道目前已經學習到一半了嗎？做得好！
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
