@@ -288,8 +288,6 @@ print(rescaledX[0:5,:])
 - 透過 k-fold 交叉驗證的方法來預估某個模型的準確率
 - 透過 leave one out 交叉驗證的方式來預估某個演算法的準確率
 
-The snippet below uses scikit-learn to estimate the accuracy of the Logistic Regression algorithm on the Pima Indians onset of diabetes dataset using 10-fold cross validation.
-
 底下的程式碼使用 scikit-learn 的 10-fold 交叉驗證的方式來驗證使用 Logistic Regression 演算法在 Pima 印地安人糖尿病資料集上的準確率。
 
 ```python
@@ -309,23 +307,22 @@ model = LogisticRegression()
 results = cross_val_score(model, X, Y, cv=kfold)
 print("Accuracy: %.3f%% (%.3f%%)") % (results.mean()*100.0, results.std()*100.0)
 ```
-What accuracy did you get? Let me know in the comments.
 
 你得到多少的準確率？在底下留言讓我知道。
 
 你知道目前已經學習到一半了嗎？做得好！
 
-## Lesson 8: Algorithm Evaluation Metrics
+## 第八課：演算法評估指標
 
-There are many different metrics that you can use to evaluate the skill of a machine learning algorithm on a dataset.
+你可以用許多不同的指標來衡量機器學習演算法在資料集上的效果。
 
-You can specify the metric used for your test harness in scikit-learn via the cross_validation.cross_val_score() function and defaults can be used for regression and classification problems. Your goal with today’s lesson is to practice using the different algorithm performance metrics available in the scikit-learn package.
+你可以透過 scikit-learn 中的 cross_validation.cross_val_score() 函式來針對你的測試資料集進行評估，這可以用在回歸和分類的問題上。今天，你的目標是練習使用 scikit-learn 中提供的不同演算法的評估指標。
 
-- Practice using the Accuracy and LogLoss metrics on a classification problem.
-- Practice generating a confusion matrix and a classification report.
-- Practice using RMSE and RSquared metrics on a regression problem.
+- 練習在分類問題上使用 Accuracy 和 LogLoss 指標
+- 練習使用混淆矩陣和分類報告
+- 練習在回歸問題上使用 RMSE 和 RSquared 指標
 
-The snippet below demonstrates calculating the LogLoss metric on the Pima Indians onset of diabetes dataset.
+底下的程式碼會在 Pima 印地安人糖尿病資料集上使用 LogLoss 指標來進行評估。
 
 ```python
 # Cross Validation Classification LogLoss
@@ -346,7 +343,7 @@ results = cross_val_score(model, X, Y, cv=kfold, scoring=scoring)
 print("Logloss: %.3f (%.3f)") % (results.mean(), results.std())
 ```
 
-What log loss did you get? Let me know in the comments.
+你跑出怎樣的 Log Loss 值呢？留言讓我知道。
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
