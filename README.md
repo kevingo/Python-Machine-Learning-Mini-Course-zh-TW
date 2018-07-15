@@ -345,19 +345,19 @@ print("Logloss: %.3f (%.3f)") % (results.mean(), results.std())
 
 你跑出怎樣的 Log Loss 值呢？留言讓我知道。
 
-## Lesson 9: Spot-Check Algorithms
+## 第九課：針對演算法進行抽樣做比較
 
-You cannot possibly know which algorithm will perform best on your data beforehand.
+你不可能事先知道哪一種演算法在你的資料集上表現最好。
 
-You have to discover it using a process of trial and error. I call this spot-checking algorithms. The scikit-learn library provides an interface to many machine learning algorithms and tools to compare the estimated accuracy of those algorithms.
+你必須透過試誤的過程來發現。我稱這叫做「演算法的抽樣」。scikit-learn 針對各種演算法提供了標準的函式庫介面，讓你可以用來比較這些演算法的精準度(accuracy)。
 
-In this lesson, you must practice spot checking different machine learning algorithms.
+在這門課中，你必須要練習抽樣來比較不同的演算法。
 
-- Spot check linear algorithms on a dataset (e.g. linear regression, logistic regression and linear discriminate analysis).
-- Spot check some non-linear algorithms on a dataset (e.g. KNN, SVM and CART).
-- Spot-check some sophisticated ensemble algorithms on a dataset (e.g. random forest and stochastic gradient boosting).
+- 針對線性的機器學習演算法來進行抽樣比較 (例如：線性回歸、邏輯回歸，以及線性判別分析)
+- 針對非線性的演算法進行抽樣比較 (例如：KNN、SVM 和 CART)
+- 針對複雜的整體學習演算法進行抽樣比較 (例如：隨機森林和隨機梯度提升演算法)
 
-For example, the snippet below spot-checks the K-Nearest Neighbors algorithm on the Boston House Price dataset.
+底下的程式碼是在使用 KNN 演算法在波士頓房價的資料集上進行隨機抽樣來進行比較。
 
 ```python
 # KNN Regression
@@ -378,7 +378,7 @@ results = cross_val_score(model, X, Y, cv=kfold, scoring=scoring)
 print(results.mean())
 ```
 
-What mean squared error did you get? Let me know in the comments.
+你得到的誤差是多少？留言告訴我。
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
