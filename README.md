@@ -380,19 +380,19 @@ print(results.mean())
 
 你得到的誤差是多少？留言告訴我。
 
-## Lesson 10: Model Comparison and Selection
+## 第十課：模型的比較與選擇
 
-Now that you know how to spot check machine learning algorithms on your dataset, you need to know how to compare the estimated performance of different algorithms and select the best model.
+現在你知道如何針對機器學習演算法進行抽樣比較，而你現在需要知道如何針對不同的演算法進行挑選，從中選擇最好的模型。
 
-In today’s lesson, you will practice comparing the accuracy of machine learning algorithms in Python with scikit-learn.
+在今天的課程中，你需要練習 scikit-learn 中不同的機器學習演算法的準確度。
 
-- Compare linear algorithms to each other on a dataset.
-- Compare nonlinear algorithms to each other on a dataset.
-- Compare different configurations of the same algorithm to each other.
-C
-reate plots of the results comparing algorithms.
+- 針對同一個資料集比較線性演算法
+- 針對同一個資料集比較非線性演算法
+- 針對單一演算法比較不同的參數設定
 
-The example below compares Logistic Regression and Linear Discriminant Analysis to each other on the Pima Indians onset of diabetes dataset.
+針對不同演算法的比較使用圖表進行呈現。
+
+下面的範例中，我們比較了邏輯回歸和線性判別分析等兩種機器學習演算法在 Pima 印地安人糖尿病資料集上的表現。
 
 ```python
 # Compare Algorithms
@@ -425,7 +425,7 @@ for name, model in models:
 	print(msg)
 ```
 
-Which algorithm got better results? Can you do better? Let me know in the comments.
+哪一種演算法你得到了比較好的結果？你可以做得更好嗎？留言讓我知道。
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
