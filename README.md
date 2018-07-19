@@ -427,18 +427,18 @@ for name, model in models:
 
 哪一種演算法你得到了比較好的結果？你可以做得更好嗎？留言讓我知道。
 
-## Lesson 11: Improve Accuracy with Algorithm Tuning
+## 第十一課：透過演算法調優來改善準確率
 
-Once you have found one or two algorithms that perform well on your dataset, you may want to improve the performance of those models.
+一旦你發現一個或兩個演算法對於你的資料集的表現很好時，你就可以開始改善這些模型的效能。
 
-One way to increase the performance of an algorithm is to tune its parameters to your specific dataset.
+其中一種改善效能的方式是針對演算法的參數進行調整。
 
-The scikit-learn library provides two ways to search for combinations of parameters for a machine learning algorithm. Your goal in today’s lesson is to practice each.
+scikit-learn 的函式庫提供兩種方式來針對參數進行搜索。你今天的任務是要學習他們。
 
-- Tune the parameters of an algorithm using a grid search that you specify.
-- Tune the parameters of an algorithm using a random search.
+- 透過指定的網格搜尋方法來調整演算法
+- 透過隨機搜尋來調整演算法
 
-The snippet below uses is an example of using a grid search for the Ridge Regression algorithm on the Pima Indians onset of diabetes dataset.
+下方的範例是在嶺回歸演算法(Ridge Regression algorithm)上，透過網格搜尋來尋找 Pima 印地安人糖尿病資料集上最佳的參數。
 
 ```python
 # Grid Search for Algorithm Tuning
@@ -461,7 +461,7 @@ print(grid.best_score_)
 print(grid.best_estimator_.alpha)
 ```
 
-Which parameters achieved the best results? Can you do better? Let me know in the comments.
+哪一個參數的效果最好？你可以做得更好嗎？留言讓我知道。
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
