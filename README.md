@@ -463,19 +463,19 @@ print(grid.best_estimator_.alpha)
 
 哪一個參數的效果最好？你可以做得更好嗎？留言讓我知道。
 
-## Lesson 12: Improve Accuracy with Ensemble Predictions
+## 第十二課：透過集成式預測方法 (Ensemble Predictions) 來改善準確率
 
-Another way that you can improve the performance of your models is to combine the predictions from multiple models.
+另外一種改善模型準確率的方式是透過結合多種模型來改善準確率。
 
-Some models provide this capability built-in such as random forest for bagging and stochastic gradient boosting for boosting. Another type of ensembling called voting can be used to combine the predictions from multiple different models together.
+有一些模型內建了這樣的功能。比如說：隨機森林 (random forest) 提供了 bagging，而隨機梯度提升法 (stochastic gradient boosting) 也使用了這樣的想法。另一種集成式的方法叫做投票 (voting)，這種方式可以整合不同模型的預測結果。
 
-In today’s lesson, you will practice using ensemble methods.
+在今天的課程中，你會練習使用集成式的方法來提升準確率。
 
-- Practice bagging ensembles with the random forest and extra trees algorithms.
-- Practice boosting ensembles with the gradient boosting machine and AdaBoost algorithms.
-- Practice voting ensembles using by combining the predictions from multiple models together.
+- 練習隨機森林的 bagging 集成方法，或是其他的樹狀演算法
+- 練習梯度提升集成方法，或是 AdaBoost 演算法
+- 練習投票式的集成方法來整合多個模型的結果
 
-The snippet below demonstrates how you can use the Random Forest algorithm (a bagged ensemble of decision trees) on the Pima Indians onset of diabetes dataset.
+底下的程式碼會教你如何使用隨機森林演算法 (一種以 bagged 為集成方法的決策樹) 在 Pima 印地安人糖尿病資料集上。
 
 ```python
 # Random Forest Classification
@@ -497,7 +497,7 @@ results = cross_val_score(model, X, Y, cv=kfold)
 print(results.mean())
 ```
 
-Can you devise a better ensemble? Let me know in the comments.
+你能夠設計一個更好的集成方法嗎？留言告訴我。
 
 ## Lesson 13: Finalize And Save Your Model
 
