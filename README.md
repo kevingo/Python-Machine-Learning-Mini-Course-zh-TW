@@ -499,16 +499,17 @@ print(results.mean())
 
 你能夠設計一個更好的集成方法嗎？留言告訴我。
 
-## Lesson 13: Finalize And Save Your Model
+## 第十三課：完成並保存你的模型
 
-Once you have found a well-performing model on your machine learning problem, you need to finalize it.
+一旦你發現一個模型可以針對你的問題表現得很好時，該是時候完成你的模型了。
 
-In today’s lesson, you will practice the tasks related to finalizing your model.
+在今天的課程中，你要練習如何完成你的模型。
 
-Practice making predictions with your model on new data (data unseen during training and testing).
-Practice saving trained models to file and loading them up again.
+練習使用你訓練出來的模型在新的資料上進行預測 (這個資料在訓練或測試階段都沒有用過)。
 
-For example, the snippet below shows how you can create a Logistic Regression model, save it to file, then load it later and make predictions on unseen data.
+練習儲存將訓練好的模型儲存成檔案格式，並且再讀取它們。
+
+底下的範例會建立一個邏輯回歸模型 (Logistic Regression Model)，將此模型儲存成檔案，並且之後讀取此模型並用來預測沒看過的資料。
 
 ```python
 # Save Model Using Pickle
