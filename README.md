@@ -541,5 +541,28 @@ result = loaded_model.score(X_test, Y_test)
 print(result)
 ```
 
+## Lesson 14: Hello World End-to-End Project
+
+You now know how to complete each task of a predictive modeling machine learning problem.
+
+In today’s lesson, you need to practice putting the pieces together and working through a standard machine learning dataset end-to-end.
+
+Work through the [iris dataset](https://archive.ics.uci.edu/ml/datasets/Iris) end-to-end (the hello world of machine learning)
+
+This includes the steps:
+
+1. Understanding your data using descriptive statistics and visualization.
+2. Preprocessing the data to best expose the structure of the problem.
+3. Spot-checking a number of algorithms using your own test harness.
+4. Improving results using algorithm parameter tuning.
+5. Improving results using ensemble methods.
+6. Finalize the model ready for future use.
+
+Take it slowly and record your results along the way.
+
+What model did you use? What results did you get? Let me know in the comments.
+
+
+
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
