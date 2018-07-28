@@ -562,7 +562,30 @@ Take it slowly and record your results along the way.
 
 What model did you use? What results did you get? Let me know in the comments.
 
+## The End!
+## (Look How Far You Have Come)
 
+You made it. Well done!
+
+Take a moment and look back at how far you have come.
+
+- You started off with an interest in machine learning and a strong desire to be able to practice and apply machine learning using Python.
+- You downloaded, installed and started Python, perhaps for the first time and started to get familiar with the syntax of the language.
+- Slowly and steadily over the course of a number of lessons you learned how the standard tasks of a predictive modeling machine learning project map onto the Python platform.
+- Building upon the recipes for common machine learning tasks you worked through your first machine learning problems end-to-end using Python.
+- Using a standard template, the recipes and experience you have gathered you are now capable of working through new and different predictive modeling machine learning problems on your own.
+
+Don’t make light of this, you have come a long way in a short amount of time.
+
+This is just the beginning of your machine learning journey with Python. Keep practicing and developing your skills.
+
+## Summary
+
+How Did You Go With The Mini-Course?
+Did you enjoy this mini-course?
+
+Do you have any questions? Were there any sticking points?
+Let me know. Leave a comment below.
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
