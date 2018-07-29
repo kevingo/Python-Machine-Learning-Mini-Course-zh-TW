@@ -541,26 +541,26 @@ result = loaded_model.score(X_test, Y_test)
 print(result)
 ```
 
-## Lesson 14: Hello World End-to-End Project
+## 第十四課：從頭到尾來完成一個 「Hello World」 的機器學習專案
 
-You now know how to complete each task of a predictive modeling machine learning problem.
+你現在知道如何從頭到尾完成一個機器學習問題了。
 
-In today’s lesson, you need to practice putting the pieces together and working through a standard machine learning dataset end-to-end.
+在今天的課程中，你需要練習把之前學到的每一個部分都放在一起，從頭到尾的來練習一個標準的機器學習專案。
 
-Work through the [iris dataset](https://archive.ics.uci.edu/ml/datasets/Iris) end-to-end (the hello world of machine learning)
+練習 [iris 資料集](https://archive.ics.uci.edu/ml/datasets/Iris) 來完成一個從頭到尾的機器學習專案 (這個資料集可以說是機器學習專案的 Hello World)。
 
-This includes the steps:
+這會包含以下步驟：
 
-1. Understanding your data using descriptive statistics and visualization.
-2. Preprocessing the data to best expose the structure of the problem.
-3. Spot-checking a number of algorithms using your own test harness.
-4. Improving results using algorithm parameter tuning.
-5. Improving results using ensemble methods.
-6. Finalize the model ready for future use.
+1. 透過敘述性統計和資料視覺化來了解你的資料
+2. 針對資料進行前處理，讓資料可以最好的描述你想解決的問題
+3. 使用自己的測試方式來對不同的演算法進行抽樣比較
+4. 透過演算法參數的調整來改善結果
+5. 透過集成式方法來改善結果
+6. 保存最終模型以供未來使用
 
-Take it slowly and record your results along the way.
+慢慢來，並記錄你的結果。
 
-What model did you use? What results did you get? Let me know in the comments.
+你用了什麼模型？得到什麼結果？留言讓我知道。
 
 ## The End!
 ## (Look How Far You Have Come)
