@@ -183,12 +183,12 @@ print(mydataframe)
 為了讓你可以更快入門，下面的程式碼是一個簡單的範例，它直接從 UCI 機器學習資料庫中，透過 Pandas 來讀取 Pima 印地安人糖尿病資料集：
 
 ```python
-    # Load CSV using Pandas from URL
-    import pandas
-    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
-    names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
-    data = pandas.read_csv(url, names=names)
-    print(data.shape)
+# Load CSV using Pandas from URL
+import pandas
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = pandas.read_csv(url, names=names)
+print(data.shape)
 ```
 
 ## 第四課：透過敘述統計的方法來瞭解資料
@@ -204,12 +204,12 @@ print(mydataframe)
 底下的範例是讀取 Pima 印地安人糖尿病資料集後，透過 describe() 函式來觀看資料的分佈。
 
 ```python
-    import pandas
-    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
-    names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
-    data = pandas.read_csv(url, names=names)
-    description = data.describe()
-    print(description)
+import pandas
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = pandas.read_csv(url, names=names)
+description = data.describe()
+print(description)
 ```
 
 ## 第五課：透過視覺化來了解資料
@@ -227,15 +227,15 @@ print(mydataframe)
 舉例來說，底下的程式碼會讀取糖尿病資料集，並建立資料集之間的散佈圖矩陣。
 
 ```python
-    # Scatter Plot Matrix
-    import matplotlib.pyplot as plt
-    import pandas
-    from pandas.plotting import scatter_matrix
-    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
-    names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
-    data = pandas.read_csv(url, names=names)
-    scatter_matrix(data)
-    plt.show()
+# Scatter Plot Matrix
+import matplotlib.pyplot as plt
+import pandas
+from pandas.plotting import scatter_matrix
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+data = pandas.read_csv(url, names=names)
+scatter_matrix(data)
+plt.show()
 ```
 
 ![image](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/Sample-Scatter-Plot-Matrix.png)
