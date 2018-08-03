@@ -579,13 +579,13 @@ Don’t make light of this, you have come a long way in a short amount of time.
 
 This is just the beginning of your machine learning journey with Python. Keep practicing and developing your skills.
 
-## Summary
+## 總結
 
-How Did You Go With The Mini-Course?
-Did you enjoy this mini-course?
+你怎麼使用這個課程？
+你喜歡這個課程嗎？
 
-Do you have any questions? Were there any sticking points?
-Let me know. Leave a comment below.
+有沒有任何問題？你在什麼地方被困住呢？
+讓我知道，在底下留言。
 
 ## Reference
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
