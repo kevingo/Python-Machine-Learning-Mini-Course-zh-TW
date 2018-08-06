@@ -170,7 +170,7 @@ print(mydataframe)
 
 機器學習演算法需要資料。你的資料可以從自己的資料集來，可是當你一開始練習的時候，應該練習使用標準機器學習資料集。
 
-今天你的任務就是熟悉在 Python 中讀取滋藥，並且使用標準的機器學習資料集。
+今天你的任務就是熟悉在 Python 中讀取資料，並且使用標準的機器學習資料集。
 
 在網路你可以找到許多優秀的機器學習用的資料集。在這堂課中，你可以從[UCI 機器學習資料庫](http://machinelearningmastery.com/practice-machine-learning-with-small-in-memory-datasets-from-the-uci-machine-learning-repository/) 中下載相關的資料集。
 
@@ -195,13 +195,13 @@ print(data.shape)
 
 一旦你將資料讀取到 Python 後，你就能夠更好地瞭解你的資料。
 
-當你更了解你的資料，你所建立的模型就會更好且更準確。了解資料的第一步就是使用敘述統計的方式來進行。
+當你更了解你的資料，你所建立的模型就會更好且更準確。了解資料的第一步就是使用敘述統計的方式來進行。
 
 今天的功課就是透過敘述統計的方法來了解資料。我建議你可以使用 Pandas DataFrame 提供的相關函式。
 
-透過 head() 函式來看看數筆資料。透過 shape 屬性來觀看資料的維度。透過 dtypes 屬性來看看資料的型態。透過 describe() 函式來看看資料的分佈狀況。使用 corr() 函式來計算資料之間的相關係數。
+透過 head() 函式來看看數筆資料。透過 shape 屬性來觀看資料的維度。透過 dtypes 屬性來看看資料的型態。透過 describe() 函式來看看資料的分佈狀況。使用 corr() 函式來計算資料之間的相關係數。
 
-底下的範例是讀取 Pima 印地安人糖尿病資料集後，透過 describe() 函式來觀看資料的分佈。
+底下的範例是讀取 Pima 印地安人糖尿病資料集後，透過 describe() 函式來觀看資料的分佈。
 
 ```python
 import pandas
