@@ -562,22 +562,22 @@ print(result)
 
 你用了什麼模型？得到什麼結果？留言讓我知道。
 
-## The End!
-## (Look How Far You Have Come)
+## 結束！
+## (看看你走了多遠)
 
-You made it. Well done!
+你成功了，做得好！
 
-Take a moment and look back at how far you have come.
+看看你過去學習到的成果。
 
-- You started off with an interest in machine learning and a strong desire to be able to practice and apply machine learning using Python.
-- You downloaded, installed and started Python, perhaps for the first time and started to get familiar with the syntax of the language.
-- Slowly and steadily over the course of a number of lessons you learned how the standard tasks of a predictive modeling machine learning project map onto the Python platform.
-- Building upon the recipes for common machine learning tasks you worked through your first machine learning problems end-to-end using Python.
-- Using a standard template, the recipes and experience you have gathered you are now capable of working through new and different predictive modeling machine learning problems on your own.
+- 你對機器學習開始產生興趣，並且可以使用 Python 來練習和應用機器學習的相關技術
+- 你下載、安裝，並且開始使用 Python，這可能是你第一次熟悉這個語言
+- 在課程中，你逐步的學習預測性機器學習建模的標準任務，並且在 Python 上面實作他們
+- 基於常見的機器學習方法，你透過 Python 從頭到尾完成了一個專案
+- 透過標準的模板和學習經驗，你可以自己處理新的資料集與不同的機器學習問題
 
-Don’t make light of this, you have come a long way in a short amount of time.
+不要小看這一切，你在很短的時間內走了很長的路。
 
-This is just the beginning of your machine learning journey with Python. Keep practicing and developing your skills.
+而這只是機器學習旅程的開端，持續練習並且發展你的技能。
 
 ## 總結
 
