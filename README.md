@@ -33,70 +33,32 @@ Python 已經成為應用機器學習領域中發展最快速的平台語言之�
 
 ## 課程導覽
 
-Python Machine Learning Mini-Course
-by Jason Brownlee on September 26, 2016 in Python Machine Learning
-From Developer to Machine Learning Practitioner in 14 Days
-Python is one of the fastest-growing platforms for applied machine learning.
+這門課程共分為 14 章。
 
-In this mini-course, you will discover how you can get started, build accurate models and confidently complete predictive modeling machine learning projects using Python in 14 days.
-
-This is a big and important post. You might want to bookmark it.
-
-Let’s get started.
-
-Update Oct/2016: Updated examples for sklearn v0.18.
-Update Feb/2018: Update Python and library versions.
-Update March/2018: Added alternate link to download some datasets as the originals appear to have been taken down.
-Python Machine Learning Mini-Course
-Python Machine Learning Mini-Course
-Photo by Dave Young, some rights reserved.
-
-Who Is This Mini-Course For?
-Before we get started, let’s make sure you are in the right place.
-
-The list below provides some general guidelines as to who this course was designed for.
-
-Don’t panic if you don’t match these points exactly, you might just need to brush up in one area or another to keep up.
-
-Developers that know how to write a little code. This means that it is not a big deal for you to pick up a new programming language like Python once you know the basic syntax. It does not mean you’re a wizard coder, just that you can follow a basic C-like language with little effort.
-Developers that know a little machine learning. This means you know the basics of machine learning like cross-validation, some algorithms and the bias-variance trade-off. It does not mean that you are a machine learning Ph.D., just that you know the landmarks or know where to look them up.
-This mini-course is neither a textbook on Python or a textbook on machine learning.
-
-It will take you from a developer that knows a little machine learning to a developer who can get results using the Python ecosystem, the rising platform for professional machine learning.
-
-Need help with Machine Learning in Python?
-Take my free 2-week email course and discover data prep, algorithms and more (with code).
-
-Click to sign-up now and also get a free PDF Ebook version of the course.
-
-Start Your FREE Mini-Course Now!
-Mini-Course Overview
-This mini-course is broken down into 14 lessons.
-
-You could complete one lesson per day (recommended) or complete all of the lessons in one day (hard core!). It really depends on the time you have available and your level of enthusiasm.
+你可以一天完成一堂課 (這是推薦的節奏)，或是在一天之內完成所有課程 (相當精實！)。這完全取決你的時間以及熱情。
 
 Below are 14 lessons that will get you started and productive with machine learning in Python:
 
-- Lesson 1: Download and Install Python and SciPy ecosystem.
-- Lesson 2: Get Around In Python, NumPy, Matplotlib and Pandas.
-- Lesson 3: Load Data From CSV.
-- Lesson 4: Understand Data with Descriptive Statistics.
-- Lesson 5: Understand Data with Visualization.
-- Lesson 6: Prepare For Modeling by Pre-Processing Data.
-- Lesson 7: Algorithm Evaluation With Resampling Methods.
-- Lesson 8: Algorithm Evaluation Metrics.
-- Lesson 9: Spot-Check Algorithms.
-- Lesson 10: Model Comparison and Selection.
-- Lesson 11: Improve Accuracy with Algorithm Tuning.
-- Lesson 12: Improve Accuracy with Ensemble Predictions.
-- Lesson 13: Finalize And Save Your Model.
-- Lesson 14: Hello World End-to-End Project.
+以下是 14 門課程的標題：
 
-Each lesson could take you 60 seconds or up to 30 minutes. Take your time and complete the lessons at your own pace. Ask questions and even post results in the comments below.
+- 第一課：下載並安裝 Python 和 SciPy
+- 第二課：開始練習 Python、NumPy、Matplotlib 和 Pandas
+- 第三課：從 CSV 中讀取資料
+- 第四課：透過敘述統計的方法來瞭解資料
+- 第五課：透過視覺化來了解資料
+- 第六課：針對資料進行前處理，準備進入建模階段
+- 第七課：透過重複抽樣(Resample method)的方法來進行演算法評估
+- 第八課：演算法評估指標
+- 第九課：針對演算法進行抽樣做比較
+- 第十課：模型的比較與選擇
+- 第十一課：透過演算法調優來改善準確率
+- 第十二課：透過集成式預測方法 (Ensemble Predictions) 來改善準確率
+- 第十三課：完成並保存你的模型
+- 第十四課：從頭到尾來完成一個 「Hello World」 的機器學習專案
 
-The lessons expect you to go off and find out how to do things. I will give you hints, but part of the point of each lesson is to force you to learn where to go to look for help on and about the Python platform (hint, I have all of the answers directly on this blog, use the search feature).
+每一門課程可能會花費 60 秒到 30 分鐘，按照自己的步調，花一點時間完成每一堂課。有任何問題都歡迎隨時發問。
 
-I do provide more help in the early lessons because I want you to build up some confidence and inertia.
+我期待你可以從課程中自行學習，內容中會有提示，但我期待你可以自己去找相關的資源來完成所有內容，你也可以在原作者的部落格中找到一些提示。
 
 ## 第一課：下載並安裝 Python 和 SciPy
 
