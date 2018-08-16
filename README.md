@@ -549,5 +549,5 @@ print(result)
 有沒有任何問題？你在什麼地方被困住呢？
 讓我知道，在底下留言。
 
-## Reference
+## 參考連結
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
