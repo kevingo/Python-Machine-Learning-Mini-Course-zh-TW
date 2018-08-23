@@ -192,7 +192,14 @@ print(description)
 # Scatter Plot Matrix
 import matplotlib.pyplot as plt
 import pandas
-from pandas.plotting import scatter_matrix
+
+# The plotting method is moving to pandas.plotting from pandas.tools.plotting
+# If error occured, try to load plotting from old version.
+try:
+	from pandas.plotting import scatter_matrix
+except Exception as e:
+	from pandas.tools.plotting import scatter_matrix
+
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = pandas.read_csv(url, names=names)
