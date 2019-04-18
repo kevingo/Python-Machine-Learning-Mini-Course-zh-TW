@@ -186,7 +186,7 @@ print(description)
 使用 plot(kind='box') 函式來建立每個屬性的 box-and-whisker 圖。
 使用 pandas.scatter_matrix() 函式來建立所有屬性兩兩之間的散佈圖。
 
-舉例來說，底下的程式碼會讀取糖尿病資料集，並建立資料集之間的散佈圖矩陣。
+舉例來說，底下的程式碼會讀取糖尿病資料集，並建立資料集之間的散佈圖矩陣。
 
 ```python
 # Scatter Plot Matrix
